@@ -1,0 +1,189 @@
+﻿body {
+    background-color: #373636;
+    color: white;
+    margin: 0 0 0 0;
+}
+
+
+@media screen and (min-width: 600px) {
+    .sidebar {
+        width: 20%;
+        height: 100vh;
+        font-size: 30px;
+        padding: 20px 20px 20px 20px;
+        background-color: #121212;
+        line-height: 60px;
+        float: left;
+        border-right: 1px solid #808080;
+        overflow: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+        .sidebar::-webkit-scrollbar {
+            display: none;
+        }
+
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+        }
+
+            .sidebar a:hover {
+                color: #9147ff;
+            }
+
+    .highlight {
+        width: 60%;
+        float: left;
+        height: 100vh;
+        background-color: #121212;
+        border-right: 1px solid #808080;
+        overflow: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+        .highlight::-webkit-scrollbar {
+            display: none;
+        }
+
+        .highlight a {
+            color: white;
+            text-decoration: none;
+        }
+
+            .highlight a:hover {
+                color: #9147ff;
+                border-color: #9147ff !important;
+            }
+
+    .h_image {
+        height: 290px;
+        width: 100%;
+        display: inline;
+    }
+
+    .showcase{
+        margin-bottom: 20px;
+    }
+
+    .products{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .game_row {
+        height: 170px;
+        width: 350px;
+        margin-left: 20px;
+        margin-right: auto;
+        background-color: #121212;
+        padding: 10px 10px 10px 10px;
+        border: 1px solid #808080;
+    }
+
+    .logo{
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin-right: 20px;
+    }
+
+    .gamepage {
+        width: 60%;
+        float: left;
+        height: 100vh;
+        background-color: #121212;
+        border-right: 1px solid #808080;
+        overflow: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+        .gamepage::-webkit-scrollbar {
+            display: none;
+        }
+
+        .gamepage a {
+            color: white;
+            text-decoration: none;
+        }
+
+            .gamepage a:hover {
+                color: #9147ff;
+                border-color: #9147ff !important;
+            }
+
+    .game_info{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+        .game_info a:hover {
+            color: #9147ff;
+            border-color: #9147ff !important;
+        }
+
+    .gamelogo {
+        width: 200px;
+        height: 200px;
+        float: left;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .url{
+
+    }
+        .url:hover {
+            color: #9147ff;
+            border-color: #9147ff !important;
+        }
+
+    .desc {
+        float: left;
+        margin-left: 20px;
+        margin-top: 20px;
+        max-height: 50%;
+        margin-bottom: 20px;
+        overflow: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+        .desc::-webkit-scrollbar {
+            display: none;
+        }
+
+    .getbutton {
+        height: 50px;
+        padding: 10px 10px 10px 10px;
+        background-color: #9147ff;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border: none;
+        color: white;
+        float: right;
+        margin-right: 30px;
+    }
+
+    .ism-slider{
+        margin-top: 80px !important;
+        margin-bottom: 80px !important;
+        height: 450px !important;
+    }
+
+    .friends {
+        width: 20%;
+        height: 100vh;
+        font-size: 20px;
+        padding: 20px 20px 20px 20px;
+        background-color: #121212;
+        line-height: 50px;
+        float: left;
+    }
+}
