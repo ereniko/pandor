@@ -1,5 +1,8 @@
 # pandor
-Game publishing platform 
+Game publishing platform -
+-
+-
+-
 Emeği Geçenler
 - Arda TAHTACI
 - Eren GÜLTEKİN
